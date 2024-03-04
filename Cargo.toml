@@ -1,0 +1,16 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+authors = ["Tuan Pham <tuan-pham@cybozu.vn>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/tuanphamcybozu/grrs"
+repository = "https://github.com/tuanphamcybozu/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1.0.80"
+clap = { version = "4.5", features = ["derive"] }
+
