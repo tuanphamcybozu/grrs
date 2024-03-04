@@ -4,4 +4,4 @@ For learning Rust 🧑‍💻
 
 ### How to run
 $ cargo build\
-$ cargo run -- <text-to-search> <path-to-file>
+$ cargo run -- \<text-to-search\> \<path-to-file\>
